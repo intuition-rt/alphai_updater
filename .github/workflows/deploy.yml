@@ -39,7 +39,7 @@ jobs:
       - name: Build Web
         # Adjust base-href if you are deploying to a subdirectory (e.g. /repo-name/)
         # run: flutter build web --release --base-href "/repository_name/"
-        run: flutter build web --release
+        run: flutter build web --release --base-href "/alphai_updater/"
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
