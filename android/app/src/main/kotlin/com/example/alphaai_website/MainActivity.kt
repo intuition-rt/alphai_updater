@@ -1,0 +1,5 @@
+package com.example.alphaai_website
+
+import io.flutter.embedding.android.FlutterActivity
+
+class MainActivity : FlutterActivity()
